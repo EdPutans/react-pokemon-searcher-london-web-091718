@@ -10,7 +10,7 @@ class PokemonCard extends React.Component {
             <img alt="oh no!" />
           </div>
           <div className="content">
-            <div className="header">POKEMON NAME HERE</div>
+            <div className="header">{ this.props.pokemon.name }</div>
           </div>
           <div className="extra content">
             <span>
